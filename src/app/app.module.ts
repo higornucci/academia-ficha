@@ -12,7 +12,7 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AngularFireModule } from 'angularfire2';
 import { FirebaseProvider } from './../providers/firebase/firebase';
 
-const config = {
+const firebaseConfig = {
   apiKey: "AIzaSyDNjh-t_Cofui8milI09FoZ1ku9AbtbNOs",
   authDomain: "academia-ficha.firebaseapp.com",
   databaseURL: "https://academia-ficha.firebaseio.com",
